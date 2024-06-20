@@ -1,0 +1,49 @@
+.mainContainer {
+    position: relative; 
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.textOverlay {
+    position: absolute; 
+    bottom: 10%; 
+    left: 2%; 
+    text-align: center;
+    color: white;
+}
+
+
+
+.companySlogan {
+    font-size: 80px;
+    margin: 0;
+    text-align: left;
+    font-weight: 100;
+}
+
+
+.learnOverlay{
+    position: absolute; 
+    bottom: 6%; 
+    right: 2%; 
+    text-align: center;
+    color: white;
+}
+
+.learnMore{
+    cursor: pointer;
+    font-size: xx-large;
+    font-weight: 200;
+
+}

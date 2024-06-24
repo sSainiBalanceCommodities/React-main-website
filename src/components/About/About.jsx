@@ -21,9 +21,9 @@ const About = () => {
       />
 
       <div className={styles.aboutDescriptionBox} >
-        <p className={ styles.aboutHeading} >About Us</p>
-        <p className={ styles.aboutHelper} >Powering Efficiency in Intraday Power Markets</p>
-        <p className={ styles.aboutDescription} >
+        <p className={ styles.aboutHeading} data-aos="fade-down">About Us</p>
+        <p className={ styles.aboutHelper} data-aos="fade-left" >Powering Efficiency in Intraday Power Markets</p>
+        <p className={ styles.aboutDescription} data-aos="fade-right">
           Life is all about finding the right balance and we believe that balance is achieved only when it is challenged.
           Here at Balance, we trade electricity to match supply with demand. No fuss,
           just the essentials. Our mission is clear: optimize energy flows for a stable grid.

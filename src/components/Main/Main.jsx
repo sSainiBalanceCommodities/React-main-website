@@ -20,8 +20,8 @@ const Main = () => {
                 Your browser does not support the video tag.
             </video>
             <div className={styles.textOverlay}>
-                <p className={styles.companySlogan}>Balance is not something you find.</p>
-                <p className={styles.companySlogan} >It's something you create.</p>
+                <p className={styles.companySlogan} data-aos="fade-down">Balance is not something you find.</p>
+                <p className={styles.companySlogan}  data-aos="fade-right">It's something you create.</p>
             </div>
             <div className={styles.learnOverlay}>
                 <p className={styles.learnMore} onClick={()=>navigate('/dashboard')}  >

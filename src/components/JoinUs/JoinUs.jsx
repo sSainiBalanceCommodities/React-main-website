@@ -23,13 +23,13 @@ const JoinUs = () => {
             <div className={styles.JoinBox} >
                 <div className={styles.JoinHaederBox} >
                     <div className={styles.header} >
-                        <p className={styles.headerText} >Join Us</p>
+                        <p className={styles.headerText} data-aos="zoom-out-left">Join Us</p>
                     </div>
                 </div>
 
                 <div className={styles.contentBox} >
-                    <p className={styles.contentBoxHeader}  >Are you ready to embrace the adventure that is Balance?</p>
-                    <p className={styles.contentBoxDescription} >If you're seeking a break from the standard nine-to-five
+                    <p className={styles.contentBoxHeader} data-aos="fade-down" >Are you ready to embrace the adventure that is Balance?</p>
+                    <p className={styles.contentBoxDescription} data-aos="zoom-out">If you're seeking a break from the standard nine-to-five
                         and are driven by adventure,
                         innovation, and a zest for the extraordinary, then Balance is calling your name.
 
@@ -40,7 +40,7 @@ const JoinUs = () => {
                 </div>
 
                 <div className={styles.founderBottom} >
-                    <div className={styles.iconBox} >
+                    <div className={styles.iconBox} data-aos="zoom-out-right">
                         <LinkedIn className={styles.linkedIn}  />
                         <Gmail className={styles.gmail}   />
                     </div>
@@ -48,8 +48,8 @@ const JoinUs = () => {
 
             
             </div>
-            <div className={styles.joinDetails} >
-                    <p>841 DMCC Business Center, J&G3, JLT, Dubai UAE</p>
+            <div className={styles.joinDetails}  >
+                    <p >841 DMCC Business Center, J&G3, JLT, Dubai UAE</p>
                 </div>
         </div>
     )
